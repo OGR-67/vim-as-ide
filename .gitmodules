@@ -25,3 +25,15 @@
 [submodule ".vim/pack/vendor/start/vim-anyfold"]
 	path = .vim/pack/vendor/start/vim-anyfold
 	url = https://github.com/pseewald/vim-anyfold.git
+[submodule ".vim/pack/vendor/start/vim-buftabline"]
+	path = .vim/pack/vendor/start/vim-buftabline
+	url = https://github.com/ap/vim-buftabline.git
+[submodule ".vim/pack/vendor/start/vim-powerline"]
+	path = .vim/pack/vendor/start/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule ".vim/pack/vendor/start/vim-repeat"]
+	path = .vim/pack/vendor/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule ".vim/pack/vendor/start/vim-surround"]
+	path = .vim/pack/vendor/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
