@@ -1,3 +1,6 @@
 [submodule ".vim/pack/plugins/start/vim-polyglot"]
 	path = .vim/pack/plugins/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
+[submodule ".vim/pack/vendor/start/coc.nvim"]
+	path = .vim/pack/vendor/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
