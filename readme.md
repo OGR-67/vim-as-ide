@@ -22,7 +22,7 @@ This is the list of the plugins I use:
 
 ## Environment variables
 
-Add this line to your .bashrc file
+Add this line to your .bashrc file will make fzf search for hidden files.
 
 ```console
 export FZF_DEFAULT_COMMAND="find -L"
@@ -32,6 +32,8 @@ export FZF_DEFAULT_COMMAND="find -L"
 
 - Copy .vimrc file and .vim folder into your home/ directory
 - Check every plugins dependencies
+
+Note: On MacOs, conceal is disable in vim. Use macvim instead and open files with mvim command.
 
 ## Plugins dependencies
 
@@ -65,8 +67,7 @@ You'll have to install coc-extension or configure language server for each
 language you use
 
 ```console
-:CocInstall coc-json coc-tsserver coc-sh coc-css coc-html coc-java
-coc-markdownlint coc-psalm coc-pyright
+:CocInstall coc-json coc-tsserver coc-sh coc-css coc-html coc-java coc-markdownlint coc-psalm coc-pyright
 ```
 
 Check any error maybe you'll have to install some more dependencies. Feel free
