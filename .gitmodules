@@ -19,3 +19,9 @@
 [submodule ".vim/pack/vendor/start/nerdtree"]
 	path = .vim/pack/vendor/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+[submodule ".vim/pack/vendor/start/vim-addon-mw-utils"]
+	path = .vim/pack/vendor/start/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule ".vim/pack/vendor/start/vim-anyfold"]
+	path = .vim/pack/vendor/start/vim-anyfold
+	url = https://github.com/pseewald/vim-anyfold.git
