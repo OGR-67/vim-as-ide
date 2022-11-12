@@ -71,3 +71,9 @@ coc-markdownlint coc-psalm coc-pyright
 
 Check any error maybe you'll have to install some more dependencies. Feel free
 to customize as you like in .vimrc file.
+
+## My cheat sheet
+
+Follow [this
+link](https://www.canva.com/design/DAFREPtgktk/o03Y-HRZqEwxBryaNzfqNQ/view?utm_content=DAFREPtgktk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink) to get my personal vim cheat sheet taking in count my
+Configuration.
