@@ -14,7 +14,7 @@ This is the list of the plugins I use:
 - [vim-addon-mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils)
 - [vim-anyfold](https://github.com/pseewald/vim-anyfold)
 - [vim-buftabline](https://github.com/ap/vim-buftabline)
-- [vim-powerline](https://github.com/powerline/powerline)
+- [vim-powerline](https://github.com/Lokaltog/vim-powerline)
 - [vim-repeat](https://github.com/tpope/vim-repeat)
 - [vim-surround](https://github.com/tpope/vim-surround)
 - [vim-polyglot](https://github.com/sheerun/vim-polyglot)
@@ -22,7 +22,7 @@ This is the list of the plugins I use:
 
 ## Environment variables
 
-Add those lines to your .bashrc file
+Add this line to your .bashrc file
 
 ```console
 export FZF_DEFAULT_COMMAND="find -L"
@@ -36,6 +36,8 @@ export FZF_DEFAULT_COMMAND="find -L"
 ## Plugins dependencies
 
 ### coc.nvim
+
+#### nodeJS
 
 coc.nvim needs a recent version of nodeJS and npm
 
