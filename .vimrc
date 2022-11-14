@@ -81,12 +81,15 @@ au FocusLost * :wa
 
 " split screen remapping
 nnoremap <leader>w <C-w>v<C-w>l
+nnoremap <leader>h <C-w>s<C-w>j
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 nnoremap <C-]> <C-w>>
 nnoremap <C-[> <C-w><
+nnoremap <C-d> <C-w>+
+nnoremap <C-c> <C-w>-
 
 " fzf remap
 nnoremap <leader>z :FZF<cr>
@@ -260,3 +263,18 @@ vnoremap <s-tab> <
 " remap buffer
 nnoremap <c-i> :bp<cr>
 nnoremap <c-o> :bn<cr>
+
+" debug
+set mouse=a " Can be convenient to have the mouse available in the debugger
+let g:vimspector_base_dir='/home/olivier/.vim/pack/vendor/start/vimspector'
+nnoremap <Leader>dd :call vimspector#Launch()<CR>
+nnoremap <Leader>de :call vimspector#Reset()<CR>
+nnoremap <Leader>dc :call vimspector#Continue()<CR>
+
+nnoremap <Leader>dt :call vimspector#ToggleBreakpoint()<CR>
+nnoremap <Leader>dT :call vimspector#ClearBreakpoints()<CR>
+
+nmap <Leader>dk <Plug>VimspectorRestart
+nmap <Leader>dh <Plug>VimspectorStepOut
+nmap <Leader>dl <Plug>VimspectorStepInto
+nmap <Leader>dj <Plug>VimspectorStepOver

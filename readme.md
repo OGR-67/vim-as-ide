@@ -1,5 +1,7 @@
 # My Vim Configuration
 
+This configuration has been tested on Ubuntu 20.04.5 LTS with vim 9.0.749
+
 ## Plugin list
 
 This is the list of the plugins I use:
@@ -19,6 +21,7 @@ This is the list of the plugins I use:
 - [vim-surround](https://github.com/tpope/vim-surround)
 - [vim-polyglot](https://github.com/sheerun/vim-polyglot)
 - [spakup](https://github.com/rstacruz/sparkup)
+- [vimspector](https://github.com/puremourning/vimspector)
 
 ## Environment variables
 
@@ -30,6 +33,7 @@ export FZF_DEFAULT_COMMAND="find -L"
 
 ## Installation
 
+- Clone this repo with all submodules using `git clone --recurse-submodules https://github.com/OGR-67/vim-as-ide.git`
 - Copy .vimrc file and .vim folder into your home/ directory
 - Check every plugins dependencies
 
@@ -71,6 +75,18 @@ coc-markdownlint coc-psalm coc-pyright
 
 Check any error maybe you'll have to install some more dependencies. Feel free
 to customize as you like in .vimrc file.
+
+### vimspector
+
+vimspector comes nude. You'll have to install related languages debugger called
+gadgets.  
+
+To install a gadget:
+
+- execute this command in vim `:VimspectorInstall`
+- followed by `space` and `tab` to see all adapters available.
+
+For node adapter installation, you'll have to downgrade node version to 16.
 
 ## My cheat sheet
 

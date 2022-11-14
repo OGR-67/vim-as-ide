@@ -37,3 +37,6 @@
 [submodule ".vim/pack/vendor/start/vim-surround"]
 	path = .vim/pack/vendor/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule ".vim/pack/vendor/start/vimspector"]
+	path = .vim/pack/vendor/start/vimspector
+	url = https://github.com/puremourning/vimspector.git
