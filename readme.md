@@ -37,7 +37,8 @@ export FZF_DEFAULT_COMMAND="find -L"
 - Copy .vimrc file and .vim folder into your home/ directory
 - Check every plugins dependencies
 
-Note: On MacOs, conceal is disable in vim. Use macvim instead and open files with mvim command.
+Note: On MacOs, conceal is disable in vim.  
+Use macvim instead and open files with mvim command.
 
 ## Plugins dependencies
 
@@ -71,7 +72,8 @@ You'll have to install coc-extension or configure language server for each
 language you use
 
 ```console
-:CocInstall coc-json coc-tsserver coc-sh coc-css coc-html coc-java coc-markdownlint coc-psalm coc-pyright
+:CocInstall coc-json coc-tsserver coc-sh coc-css coc-html coc-java /
+coc-markdownlint coc-psalm coc-pyright
 ```
 
 Check any error maybe you'll have to install some more dependencies. Feel free
@@ -91,6 +93,6 @@ For node adapter installation, you'll have to downgrade node version to 16.
 
 ## My cheat sheet
 
+To get my personal vim cheat sheet taking in count my configuration
 Follow [this
-link](https://www.canva.com/design/DAFREPtgktk/o03Y-HRZqEwxBryaNzfqNQ/view?utm_content=DAFREPtgktk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink) to get my personal vim cheat sheet taking in count my
-Configuration.
+link](https://www.canva.com/design/DAFREPtgktk/o03Y-HRZqEwxBryaNzfqNQ/view?utm_content=DAFREPtgktk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)

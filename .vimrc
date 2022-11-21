@@ -88,7 +88,7 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 nnoremap <C-]> <C-w>>
 nnoremap <C-[> <C-w><
-nnoremap <C-d> <C-w>+
+nnoremap <C-x> <C-w>+
 nnoremap <C-c> <C-w>-
 
 " fzf remap
@@ -241,6 +241,11 @@ let g:sparkupExecuteMapping = '<c-e>'
 let g:sparkupNextMapping = '<c-n>'
 let g:sparkupMaps = 1
 let g:sparkupMapsNormal = 0
+
+" snipmate
+let g:snips_email = "roosolivier@gmail.com"
+let g:snips_author = "Olivier Roos"
+let g:snips_github = "https://github.com/OGR-67/"
 
 " color scheme
 colorscheme evening
